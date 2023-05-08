@@ -1,0 +1,18 @@
+{
+  "name": "recevier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-server-response-time": "^1.1.5",
+    "node-global-key-listener": "^0.1.1",
+    "ping": "^0.4.2",
+    "robotjs": "^0.6.0",
+    "ws": "^8.8.1"
+  }
+}
