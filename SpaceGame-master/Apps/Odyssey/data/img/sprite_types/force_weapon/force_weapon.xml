@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+ <width>150</width>
+ <height>150</height>
+ <images_list>
+  <image_file id="1"  file_name="1.png"/>
+  <image_file id="2"  file_name="2.png"/>
+  <image_file id="3"  file_name="3.png"/>
+  <image_file id="4"  file_name="4.png"/>
+ </images_list>
+ <animations_list>
+
+    <animation_state>
+  <state>PRIMARY_FIRE</state>
+   <animation_sequence>
+    <pose image_id="1" duration="3"/>
+	<pose image_id="2" duration="3"/>
+	<pose image_id="3" duration="3"/>
+	<pose image_id="4" duration="3"/>
+   </animation_sequence>
+  </animation_state>
+  
+ </animations_list>  
+</sprite_type>

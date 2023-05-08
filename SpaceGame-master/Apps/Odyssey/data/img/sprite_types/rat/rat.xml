@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+    <image_config>SEPARATED</image_config>
+    <width>124</width>
+    <height>35</height>
+    <images_list>
+        <image_file id="1"  file_name="Idle/SpriteRatIdleOne.png"/>
+        <image_file id="2"  file_name="Idle/SpriteRatIdleTwo.png"/>
+        <image_file id="3"  file_name="Right/SpriteRatRightOne.png"/>
+        <image_file id="4"  file_name="Right/SpriteRatRightTwo.png"/>
+        <image_file id="5"  file_name="Right/SpriteRatRightThree.png"/>
+        <image_file id="6"  file_name="Right/SpriteRatRightFour.png"/>
+        <image_file id="7"  file_name="Left/SpriteRatLeftOne.png"/>
+        <image_file id="8"  file_name="Left/SpriteRatLeftTwo.png"/>
+        <image_file id="9"  file_name="Left/SpriteRatLeftThree.png"/>
+        <image_file id="10"  file_name="Left/SpriteRatLeftFour.png"/>
+        <image_file id="11"  file_name="Up/SpriteRatUpOne.png"/>
+        <image_file id="12"  file_name="Up/SpriteRatUpTwo.png"/>
+        <image_file id="13"  file_name="Up/SpriteRatUpThree.png"/>
+        <image_file id="14"  file_name="Up/SpriteRatUpFour.png"/>
+		<image_file id="15"  file_name="Down/SpriteRatDownOne.png"/>
+        <image_file id="16"  file_name="Down/SpriteRatDownTwo.png"/>
+        <image_file id="17"  file_name="Down/SpriteRatDownThree.png"/>
+        <image_file id="18"  file_name="Death/SpriteRatDeathOne.png"/>
+        <image_file id="19"  file_name="Death/SpriteRatDeathTwo.png"/>
+        <image_file id="20"  file_name="Death/SpriteRatDeathThree.png"/>
+        <image_file id="21"  file_name="Death/SpriteRatDeathFour.png"/>
+		<image_file id="22"  file_name="Death/SpriteRatDeathFive.png"/>
+		<image_file id="23"  file_name="Attack/SpriteRatAttackOne.png"/>
+		<image_file id="24"  file_name="Attack/SpriteRatAttackTwo.png"/>
+        <image_file id="25"  file_name="Attack/SpriteRatAttackThree.png"/>
+        <image_file id="26"  file_name="Attack/SpriteRatAttackBurnOne.png"/>
+        <image_file id="27"  file_name="Attack/SpriteRatAttackBurnTwo.png"/>
+        <image_file id="28"  file_name="Attack/SpriteRatAttackBurnThree.png"/>
+        <image_file id="29"  file_name="Attack/SpriteRatAttackRightOne.png"/>
+        <image_file id="30"  file_name="Attack/SpriteRatAttackRightTwo.png"/>
+        <image_file id="31"  file_name="Attack/SpriteRatAttackUp.png"/>
+        <image_file id="32"  file_name="Attack/SpriteRatAttackDown.png"/>
+		<image_file id="33"  file_name="Attack/SpriteRatAttackLeftOne.png"/>
+        <image_file id="34"  file_name="Attack/SpriteRatAttackLeftTwo.png"/>
+    <animations_list>
+        <animation_state>
+            <state>IDLE</state>
+            <animation_sequence>
+                <pose image_id="1" duration="30"/>
+                <pose image_id="2" duration="30"/>
+            </animation_sequence>
+        </animation_state>
+        <animation_state>
+            <state>ATTACK</state>
+            <animation_sequence>
+				<pose image_id="29" duration="5"/>
+				<pose image_id="30" duration="5"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>ATTACK_LEFT</state>
+            <animation_sequence>
+				<pose image_id="33" duration="5"/>
+				<pose image_id="34" duration="5"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>WALKING</state>
+            <animation_sequence>
+                <pose image_id="3" duration="10"/>
+                <pose image_id="4" duration="10"/>
+                <pose image_id="5" duration="10"/>
+                <pose image_id="6" duration="10"/>
+                <pose image_id="5" duration="10"/>
+				<pose image_id="4" duration="10"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>WALKING_LEFT</state>
+            <animation_sequence>
+                <pose image_id="7" duration="10"/>
+                <pose image_id="8" duration="10"/>
+                <pose image_id="9" duration="10"/>
+                <pose image_id="10" duration="10"/>
+				<pose image_id="9" duration="10"/>
+				<pose image_id="8" duration="10"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>UP</state>
+            <animation_sequence>
+                <pose image_id="11" duration="10"/>
+				<pose image_id="12" duration="10"/>
+				<pose image_id="13" duration="10"/>
+				<pose image_id="14" duration="10"/>
+				<pose image_id="13" duration="10"/>
+				<pose image_id="12" duration="10"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>DOWN</state>
+            <animation_sequence>
+                <pose image_id="15" duration="10"/>
+				<pose image_id="16" duration="10"/>
+				<pose image_id="17" duration="10"/>
+				<pose image_id="16" duration="10"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>BURN</state>
+            <animation_sequence>
+                <pose image_id="23" duration="5"/>
+				<pose image_id="24" duration="5"/>
+				<pose image_id="25" duration="5"/>
+				<pose image_id="24" duration="5"/>
+            </animation_sequence>
+        </animation_state>
+			<animation_state>
+            <state>BURN_LEFT</state>
+            <animation_sequence>
+                <pose image_id="26" duration="5"/>
+				<pose image_id="27" duration="5"/>
+				<pose image_id="28" duration="5"/>
+				<pose image_id="27" duration="5"/>
+            </animation_sequence>
+        </animation_state>	
+		<animation_state>
+            <state>DEATH</state>
+            <animation_sequence>
+                <pose image_id="18" duration="10"/>
+				<pose image_id="19" duration="10"/>
+				<pose image_id="20" duration="10"/>
+				<pose image_id="21" duration="10"/>
+				<pose image_id="22" duration="10"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>DEAD</state>
+            <animation_sequence>
+				<pose image_id="22" duration="10"/>
+            </animation_sequence>
+        </animation_state>
+		
+    </animations_list>  
+</sprite_type>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type_list>
+  <sprite_type>shooting_star</sprite_type>
+  <sprite_type>player</sprite_type>
+  <sprite_type>laser1</sprite_type>
+  <sprite_type>curse_skull</sprite_type>  
+  <sprite_type>rocket</sprite_type>  
+  <sprite_type>explosion</sprite_type>  
+  <sprite_type>spider</sprite_type>  
+  <sprite_type>lava_boss</sprite_type>
+  <sprite_type>mage_boss</sprite_type>
+  <sprite_type>fireball</sprite_type>
+  <sprite_type>mage_bullet</sprite_type>
+  <sprite_type>acid</sprite_type>
+  <sprite_type>player_status</sprite_type>
+  <sprite_type>electric_orb</sprite_type>
+  <sprite_type>lava_burst</sprite_type>
+  <sprite_type>darkenergy</sprite_type>
+  <sprite_type>sword</sprite_type>
+  <sprite_type>lava_ball</sprite_type>
+  <sprite_type>lightning</sprite_type>
+  <sprite_type>tiger</sprite_type>
+  <sprite_type>rat</sprite_type>
+  <sprite_type>skullattack</sprite_type>
+  <sprite_type>andromalius</sprite_type>
+  <sprite_type>poison_burst</sprite_type>
+  <sprite_type>summon_sign</sprite_type>
+  <sprite_type>flamethrower</sprite_type>
+  <sprite_type>force_weapon</sprite_type>
+  <sprite_type>trishot</sprite_type>
+</sprite_type_list>

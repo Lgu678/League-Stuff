@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+ <width>47</width>
+ <height>136</height>
+ <images_list>
+  <image_file id="1"  file_name="LavaBurstOne.png"/>
+  <image_file id="2"  file_name="LavaBurstTwo.png"/>
+  <image_file id="3"  file_name="LavaBurstThree.png"/>
+  <image_file id="4"  file_name="LavaBurstFour.png"/>
+  <image_file id="5"  file_name="LavaBurstFive.png"/>
+  <image_file id="6"  file_name="LavaBurstSix.png"/>
+ </images_list>
+ <animations_list>
+
+    <animation_state>
+  <state>PRIMARY_FIRE</state>
+   <animation_sequence>
+    <pose image_id="1" duration="5"/>
+	<pose image_id="2" duration="5"/>
+	<pose image_id="3" duration="5"/>
+	<pose image_id="4" duration="5"/>
+   </animation_sequence>
+  </animation_state>
+  
+  <animation_state>
+  <state>FULLSIZE</state>
+   <animation_sequence>
+	<pose image_id="5" duration="2"/>
+	<pose image_id="6" duration="2"/>
+   </animation_sequence>
+  </animation_state>
+  
+  <animation_state>
+  <state>SECONDARY_FIRE</state>
+   <animation_sequence>
+    <pose image_id="1" duration="5"/>
+	<pose image_id="2" duration="5"/>
+	<pose image_id="3" duration="5"/>
+	<pose image_id="4" duration="5"/>
+	<pose image_id="5" duration="5"/>
+	<pose image_id="6" duration="5"/>
+   </animation_sequence>
+  </animation_state>
+  
+ </animations_list>  
+</sprite_type>

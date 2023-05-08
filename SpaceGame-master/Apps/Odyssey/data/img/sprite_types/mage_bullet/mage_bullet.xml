@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+ <width>13</width>
+ <height>13</height>
+ <images_list>
+  <image_file id="1"  file_name="MageBulletOne.png"/>
+  <image_file id="2"  file_name="MageBulletTwo.png"/>
+  <image_file id="3"  file_name="MageBulletThree.png"/>
+  <image_file id="4"  file_name="MageBulletFour.png"/>
+  <image_file id="5"  file_name="MageBulletFive.png"/>
+ </images_list>
+ <animations_list>
+
+ <animation_state>
+	<state>PRIMARY_FIRE</state>
+		<animation_sequence>
+			<pose image_id="1" duration="3"/>
+			<pose image_id="2" duration="3"/>
+			<pose image_id="3" duration="3"/>
+			<pose image_id="4" duration="3"/>
+			<pose image_id="5" duration="3"/>
+		</animation_sequence>
+ </animation_state>
+ 
+  
+  <animation_state>
+  <state>SECONDARY_FIRE</state>
+   <animation_sequence>
+    <pose image_id="5" duration="2"/>
+   </animation_sequence>
+  </animation_state>
+  
+ </animations_list>  
+</sprite_type>
